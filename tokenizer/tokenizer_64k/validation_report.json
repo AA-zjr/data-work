@@ -1,0 +1,60 @@
+{
+  "vocab_size": 65536,
+  "special_token_ids": {
+    "<|pad|>": 0,
+    "<|bos|>": 1,
+    "<|eos|>": 2,
+    "<|unk|>": 3,
+    "<|fim_prefix|>": 4,
+    "<|fim_middle|>": 5,
+    "<|fim_suffix|>": 6,
+    "<|repo_start|>": 7,
+    "<|repo_end|>": 8,
+    "<|file_start|>": 9,
+    "<|file_end|>": 10,
+    "<|document_start|>": 11,
+    "<|document_end|>": 12
+  },
+  "probes": [
+    {
+      "text": "hello world\n",
+      "bytes": 12,
+      "tokens": 3
+    },
+    {
+      "text": "def f(x):\n    return x + 1\n",
+      "bytes": 27,
+      "tokens": 11
+    },
+    {
+      "text": "#include <vector>\nint main(){return 0;}\n",
+      "bytes": 40,
+      "tokens": 13
+    },
+    {
+      "text": "#!/usr/bin/env bash\nset -euo pipefail\necho \"${HOME}\"\n",
+      "bytes": 53,
+      "tokens": 20
+    },
+    {
+      "text": "<div class=\"container\"><script type=\"module\"></script></div>\n",
+      "bytes": 61,
+      "tokens": 16
+    },
+    {
+      "text": "\\frac{a}{b} + \\sqrt{x^2 + y^2}\n",
+      "bytes": 31,
+      "tokens": 20
+    },
+    {
+      "text": "世界你好 αβγ ∑ ∫ →\n",
+      "bytes": 32,
+      "tokens": 11
+    },
+    {
+      "text": "{\"name\":\"example\",\"enabled\":true}\n",
+      "bytes": 34,
+      "tokens": 10
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "max_length": 16384,
+  "seed": 20260830,
+  "code_mode_probs": {
+    "causal": 0.50,
+    "ordinary_fim": 0.00,
+    "ast_fim": 0.10,
+    "semantic_fim": 0.32,
+    "test_aware_fim": 0.08
+  },
+  "math_fim_probability": 0.25,
+  "ordinary_min_tokens": 16,
+  "ordinary_min_middle_tokens": 4,
+  "ordinary_max_middle_fraction": 0.50,
+  "add_bos": false,
+  "add_eos": false,
+  "max_tree_paths": 200,
+  "max_contexts": 8
+}

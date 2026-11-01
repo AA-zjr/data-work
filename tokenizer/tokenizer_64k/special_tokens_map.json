@@ -1,0 +1,17 @@
+{
+  "pad_token": "<|pad|>",
+  "bos_token": "<|bos|>",
+  "eos_token": "<|eos|>",
+  "unk_token": "<|unk|>",
+  "additional_special_tokens": [
+    "<|fim_prefix|>",
+    "<|fim_middle|>",
+    "<|fim_suffix|>",
+    "<|repo_start|>",
+    "<|repo_end|>",
+    "<|file_start|>",
+    "<|file_end|>",
+    "<|document_start|>",
+    "<|document_end|>"
+  ]
+}

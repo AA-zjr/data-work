@@ -1,0 +1,21 @@
+{
+  "elapsed_seconds": 471.32166481018066,
+  "train_text_bytes": 25769803776,
+  "threads": 16,
+  "vocab_size": 65536,
+  "special_token_ids": {
+    "<|pad|>": 0,
+    "<|bos|>": 1,
+    "<|eos|>": 2,
+    "<|unk|>": 3,
+    "<|fim_prefix|>": 4,
+    "<|fim_middle|>": 5,
+    "<|fim_suffix|>": 6,
+    "<|repo_start|>": 7,
+    "<|repo_end|>": 8,
+    "<|file_start|>": 9,
+    "<|file_end|>": 10,
+    "<|document_start|>": 11,
+    "<|document_end|>": 12
+  }
+}
